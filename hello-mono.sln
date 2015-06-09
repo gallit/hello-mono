@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-mono-console", "hello-mono-console\hello-mono-console.csproj", "{6581E293-D056-4FA3-B3F4-DBD89905015D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B39F2E2F-4516-470E-9D24-AC0F3E6F0789}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +19,7 @@ Global
 		{6581E293-D056-4FA3-B3F4-DBD89905015D}.Debug|x86.Build.0 = Debug|x86
 		{6581E293-D056-4FA3-B3F4-DBD89905015D}.Release|x86.ActiveCfg = Release|x86
 		{6581E293-D056-4FA3-B3F4-DBD89905015D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
