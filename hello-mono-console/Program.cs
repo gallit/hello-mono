@@ -1,4 +1,5 @@
 ﻿using System;
+using hellomono.model;
 
 namespace hellomonoconsole
 {
@@ -15,8 +16,9 @@ namespace hellomonoconsole
 		/// </summary>
 		private static void hello6()
 		{
-			var data = new { Machine = Environment.MachineName };
-			var s = $"C# Hello {data.Machine}, we're on {DateTime.Today:D}";
+			var contact = new Contact () { FirstName = "John", LastName = "Doe" };
+			// cf contact.ToString override
+			var s = $"Hello {contact}, we're on {DateTime.Today:D}";
 			Console.WriteLine (s);
 
 		}
