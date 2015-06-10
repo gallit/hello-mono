@@ -6,9 +6,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B39F2E2F-4516-470E-9D24-AC0F3E6F0789}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		LICENSE.md = LICENSE.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-mono.model", "hello-mono.model\hello-mono.model.csproj", "{4B4953C0-C063-45D5-A79A-C64F4BFD8F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-gtk", "hello-gtk\hello-gtk.csproj", "{48188455-1277-4BD7-9FBA-F9985CE36DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-aspnet", "hello-aspnet\hello-aspnet.csproj", "{FC804D0D-8DDC-4B26-ABB7-15550C2AFB72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,6 +21,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48188455-1277-4BD7-9FBA-F9985CE36DBC}.Debug|x86.ActiveCfg = Debug|x86
+		{48188455-1277-4BD7-9FBA-F9985CE36DBC}.Debug|x86.Build.0 = Debug|x86
+		{48188455-1277-4BD7-9FBA-F9985CE36DBC}.Release|x86.ActiveCfg = Release|x86
+		{48188455-1277-4BD7-9FBA-F9985CE36DBC}.Release|x86.Build.0 = Release|x86
 		{4B4953C0-C063-45D5-A79A-C64F4BFD8F10}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{4B4953C0-C063-45D5-A79A-C64F4BFD8F10}.Debug|x86.Build.0 = Debug|Any CPU
 		{4B4953C0-C063-45D5-A79A-C64F4BFD8F10}.Release|x86.ActiveCfg = Release|Any CPU
@@ -24,6 +33,10 @@ Global
 		{6581E293-D056-4FA3-B3F4-DBD89905015D}.Debug|x86.Build.0 = Debug|x86
 		{6581E293-D056-4FA3-B3F4-DBD89905015D}.Release|x86.ActiveCfg = Release|x86
 		{6581E293-D056-4FA3-B3F4-DBD89905015D}.Release|x86.Build.0 = Release|x86
+		{FC804D0D-8DDC-4B26-ABB7-15550C2AFB72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC804D0D-8DDC-4B26-ABB7-15550C2AFB72}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC804D0D-8DDC-4B26-ABB7-15550C2AFB72}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC804D0D-8DDC-4B26-ABB7-15550C2AFB72}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

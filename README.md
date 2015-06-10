@@ -1,8 +1,7 @@
 ﻿# hello-mono
 Hello mono samples using MonoDevelop and Mono 4 framework
+Using some of the C# 6 new features
 
-  - hello-mono-console using some of the C# 6 new features
-
-Comming next :
-  - hello-mono-gtk
-  - hello-mono-aspnet
+  - hello-mono-console
+  - hello-mono-gtk (gtk3)
+  - hello-mono-aspnet (mvc/razor)

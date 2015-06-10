@@ -1,0 +1,12 @@
+﻿@{
+	var data = @Model;    
+}
+
+  <table>
+    <tr><th>FirstName</th><th>LastName</th><th>EMail</th></tr>
+    @foreach(var p in data)
+    {
+    	<tr><td>@p.FirstName</td><td>@p.LastName</td><td>@p.EMail</td></tr>
+    }
+  </table>
+
