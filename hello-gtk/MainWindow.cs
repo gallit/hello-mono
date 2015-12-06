@@ -4,7 +4,7 @@ using UI = Gtk.Builder.ObjectAttribute;
 
 public partial class MainWindow: Gtk.Window
 {
-	Builder builder;
+	//Builder builder;
 
 	[UI] Gtk.Button button1;
 	[UI] Gtk.Label label1;
@@ -65,7 +65,7 @@ public partial class MainWindow: Gtk.Window
 
 	protected MainWindow (Builder builder, IntPtr handle) : base (handle)
 	{
-		this.builder = builder;
+		//this.builder = builder;
 
 		builder.Autoconnect (this);
 		DeleteEvent += OnDeleteEvent;
